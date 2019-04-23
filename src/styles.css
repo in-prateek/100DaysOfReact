@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.day {
+  display: inline-block;
+  margin: 10px;
+  border: 1px gray solid;
+  border-radius: 5px;
+}
+.day .dayname {
+  font-size: 12px;
+  margin: 4px 0px 0px 0px;
+}
+.day span {
+  margin: 3px;
+}
+.day .max {
+  float: left;
+  font-weight: bold;
+}
+.day .min {
+  float: right;
+}
+.day .weather-image {
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 60px;
+  background-position: center;
+}
+.day .sunny {
+  background-image: url(https://openweathermap.org/img/w/01d.png);
+}
+.day .rainy {
+  background-image: url(https://openweathermap.org/img/w/09d.png);
+}
+.day .cloudy {
+  background-image: url(https://openweathermap.org/img/w/04d.png);
+}
+.day .snowy {
+  background-image: url(https://openweathermap.org/img/w/13d.png);
+}
